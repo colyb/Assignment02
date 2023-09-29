@@ -10,4 +10,24 @@ The result should be (for example):
 Hello World translated in French is: Bonjour le monde
 */
 
-
+let language = prompt("Please enter one of the languages. es, de, en or fr.")
+if (language == "es")
+{
+    document.write("Hola Mundo")
+}
+else if (language == "de")
+{
+    document.write("Hallo Welt")
+}
+else if (language == "en")
+{
+    document.write("Hello World")
+}
+else if (language == "fr")
+{
+    document.write("Bonjour le monde")
+}
+else
+{
+    document.write("Hello World")
+}
