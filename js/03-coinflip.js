@@ -23,4 +23,31 @@ If the result is tails and the user selects tails, display the following message
 The flip was tails and you chose tails...you win!
 */
 
+let coinFlip = Math.round(Math.random()) % 2
+let choice = prompt("Please select Heads or Tails")
 
+// 0 is heads
+if (coinFlip == 0)
+{
+    if (choice == "Heads")
+    {
+        document.write("The flip was heads and you chose heads...you win!")
+    }
+    else
+    {
+        document.write("The flip was tails and you chose heads...you lose!")
+    }
+}
+
+// 1 is tails
+else
+{
+    if (choice == "Tails")
+    {
+        document.write("The flip was tails and you chose tails...you win!")
+    }
+    else
+    {
+        document.write("The flip was heads and you chose tails...you lose!")
+    }
+}
