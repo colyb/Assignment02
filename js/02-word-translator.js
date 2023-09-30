@@ -13,21 +13,21 @@ Hello World translated in French is: Bonjour le monde
 let language = prompt("Please enter one of the languages. es, de, en or fr.")
 if (language == "es")
 {
-    document.write("Hola Mundo")
+    document.write("Hello World translated in Spanish is: Hola Mundo")
 }
 else if (language == "de")
 {
-    document.write("Hallo Welt")
+    document.write("Hello World translated in German is: Hallo Welt")
 }
 else if (language == "en")
 {
-    document.write("Hello World")
+    document.write("Hello World translated in English is: Hello World")
 }
 else if (language == "fr")
 {
-    document.write("Bonjour le monde")
+    document.write("Hello World translated in French is: Bonjour le monde")
 }
 else
 {
-    document.write("Hello World")
+    document.write("Hello World translated in English is: Hello World")
 }
