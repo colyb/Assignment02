@@ -10,3 +10,30 @@ If the score is between 80 and 89, write out “You received a B” into the con
 If the score is between 90 and 100, write out “You received an A” into the console.
 If the score is less than 60, write out “You received an F” into the console.
 */
+
+let score = prompt("Please enter a number between 1 and 100.")
+
+if (score < 1 || score > 100)
+{
+    document.write("Only numbers between 1 and 100 are accepted. Please choose again.")
+}
+else if (score < 60)
+{
+    document.write("You received an F.")
+}
+else if (score >= 60 && score < 70)
+{
+    document.write("You received an D.")
+}
+else if (score >= 70 && score < 80)
+{
+    document.write("You received an C.")
+}
+else if (score >= 80 && score < 90)
+{
+    document.write("You received an B.")
+}
+else
+{
+    document.write("You received an A.")
+}
